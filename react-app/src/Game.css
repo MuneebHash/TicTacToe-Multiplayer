@@ -1,0 +1,71 @@
+.row 
+{
+  height: 14vh;
+  
+}
+.confetti{
+    position: "absolute";
+    top: 0;
+    left: 0;
+    width: "100%";
+    height: "100%";
+}
+.border-b
+{
+  border-bottom: 1.1vh solid black;
+}
+
+.border-r
+{
+  border-right: 1.1vh solid black;
+}
+
+.col
+{
+  height: 14vh;
+  width: 14vh;
+  float: left;
+}
+
+  .status {
+    margin-bottom: 10px;
+    font-size: large;
+    
+  }
+  .status_winner {
+    margin-bottom: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: red;
+    
+  }
+
+  .status_draw {
+    margin-bottom: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: olive;
+  }
+  
+  .square {
+    background: #fff;
+    float: left;
+    font-size: 14vh;
+    font-weight: bold;
+    line-height: 14vh;
+    height: 14vh;
+    width: 14vh;
+    text-align: center;
+    border: none;
+    
+  }
+  
+  .square:hover {
+    background-color: rgba(211, 211, 211, 0.767);
+    border-radius: 5vh;
+  }
+  
+  .square:focus
+  {
+    outline: none;
+  }
