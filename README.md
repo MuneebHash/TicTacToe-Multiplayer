@@ -12,7 +12,7 @@ npm install
 After executing the first two for both the front-end and back-end, run 
 ```npm start```. Both client and server should be running for the app to function.
 
-### Note (7-Jan-2023):
+### Note:
 An instance of MongoDB must be running on the local machine for the server to function. A database named `tto_db` must be created and a table named `users` must be created within the database. The tablemay be created with the following commands: <br>
 ```
 use tto_db;
